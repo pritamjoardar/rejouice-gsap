@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect,useRef } from 'react'
+import React from 'react'
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
@@ -97,9 +97,9 @@ const tl = gsap.timeline()
         </div>
       </div>
       <div id='page2' className="text-[5.2vw] leading-tight  z-20 px-[2vw] py-[1.5vw]">
-        <h1 id='title' className='tracking-tighter '>We are a venture firm and digital agency.</h1>
-        <h1 id='title' className='tracking-tighter '>Our mission is to transform founders' visions</h1>
-        <h1 id='title' className='tracking-tighter '>into remarkable brands. Choose traditional </h1>
+        <h1 id='title' className='tracking-tighter '>We are a venture firm and digital agency	&#46;</h1>
+        <h1 id='title' className='tracking-tighter '>Our mission is to transform founders&#39; visions</h1>
+        <h1 id='title' className='tracking-tighter '>into remarkable brands&#46; Choose traditional </h1>
       </div>
       <div id='page4' className="flex justify-center flex-col items-center leading-tight h-[90vh]">
         <p id='title' className='font-semibold xl:text-2xl'>Agency & Venture <span className='bg-black px-2 py-1 rounded-full text-white'>Models</span></p>
@@ -108,7 +108,7 @@ const tl = gsap.timeline()
       </div>
       {/* images */}
       <div className="xl:px-16">
-        <h1 className='text-[1.6vw] tracking-tighter'>Transforming visions into brands.</h1>
+        <h1 className='text-[1.6vw] tracking-tighter'>Transforming visions into brands&#46;</h1>
         <div className="grid grid-cols-3 gap-5 mt-4">
           <span className="relative">
           <video loop autoPlay muted src="https://res.cloudinary.com/dbju6ds0a/video/upload/v1721936178/rojuice%20clone/eesqra2gojbgl4wsfxvr.mp4" className="object-cover absolute z-10"/>
